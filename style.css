@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.buttons button {
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.result-container button {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.result-container #hands{
+    font-size: 30px;
+}
+
+#hands #playerHand{
+    color: blue;
+}
+
+#hands #botHand{
+    color: red;
+}
+
+.result-container #result{
+    font-family: mv boli;
+}
+
+#hands #vs{
+    font-family: mv boli;
+}
